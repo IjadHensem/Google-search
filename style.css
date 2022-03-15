@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#top {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+#top img {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  margin: 10px;
+}
+#top button {
+  width: 30px;
+  height: 30px;
+
+  margin: 10px;
+}
+#top a {
+  text-decoration: none;
+  margin: 10px;
+  color: rgb(4, 5, 5);
+}
+#mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#midinput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#midinput input {
+  width: 25rem;
+  height: 25px;
+  border-radius: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.search {
+  position: relative;
+  left: 25px;
+}
+
+.mic {
+  position: relative;
+  right: 25px;
+}
+
+#bot {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.button1 {
+  margin: 1px;
+}
+
+.button1 button {
+  width: 6rem;
+  height: 7rem;
+  background-color: white;
+  border-style: hidden;
+}
+
+.button1 button:hover {
+  background-color: rgb(226, 223, 223);
+}
+
+.button1 .youtube {
+  width: 40px;
+  height: 40px;
+}
+.button1 .tele {
+  width: 45px;
+  height: 30px;
+}
+.button1 .shopee {
+  width: 40px;
+  height: 40px;
+}
+.button1 .plus {
+  font-size: 40px;
+}
